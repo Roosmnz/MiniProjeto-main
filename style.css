@@ -1,0 +1,38 @@
+
+
+
+/* CSS para a página de vendas (loja.css) */
+.loja {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    gap: 20px;
+}
+
+.loja li {
+    margin: 5px 0;
+}
+.loja img {
+    max-width: 10%;
+    height: auto;
+}
+
+/* css para o header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000; 
+}
+header img {
+    height: 5%;
+    width: 5%; 
+}
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+
